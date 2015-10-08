@@ -30,7 +30,11 @@
   "dependencies": {
     "classnames": "^1.2.1",
     "colr": "^1.2.1",
-    "react": "^0.13.2"
+    "react-addons-pure-render-mixin": "^0.14.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   },
   "devDependencies": {
     "browserify": "^9.0.8",

@@ -1,6 +1,6 @@
 'use strict';
 
-var React = require('../util/react');
+var React = require('react');
 
 var noop = function () {};
 

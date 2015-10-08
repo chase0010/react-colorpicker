@@ -1,8 +1,8 @@
 'use strict';
 
-var React = require('../util/react');
+var React = require('react');
 var Colr = require('colr');
-var PureRenderMixin = require('react/lib/ReactComponentWithPureRenderMixin');
+var PureRenderMixin = require('react-addons-pure-render-mixin');
 
 var OnChangeMixin = require('../mixin/onchange.react');
 
@@ -27,7 +27,7 @@ var Sample = React.createClass({
       /* jshint ignore: start */
       <div className='sample'>
         <div
-          className='current' 
+          className='current'
           style={{background: this.props.color}}
         />
         <div
