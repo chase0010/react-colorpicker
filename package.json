@@ -3,7 +3,6 @@
   "version": "0.3.10",
   "description": "Colorpicker for React",
   "main": "pkg/components/colorpicker.react.js",
-  "browser": "react-colorpicker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
