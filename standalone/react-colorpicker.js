@@ -2,10 +2,10 @@
 module.exports = require('./components/colorpicker.react');
 
 
-},{"./components/colorpicker.react":"/Volumes/Home/Projects/react-colorpicker/lib/components/colorpicker.react.jsx"}],"/Volumes/Home/Projects/react-colorpicker/lib/components/colorpicker.react.jsx":[function(require,module,exports){
+},{"./components/colorpicker.react":"/Users/brunomota/Sites/react-colorpicker/lib/components/colorpicker.react.jsx"}],"/Users/brunomota/Sites/react-colorpicker/lib/components/colorpicker.react.jsx":[function(require,module,exports){
 'use strict';
 
-var React = require('../util/react');
+var React = require('react');
 var Colr = require('colr');
 var classnames = require('classnames');
 
@@ -165,10 +165,10 @@ var ColorPicker = React.createClass({displayName: "ColorPicker",
 module.exports = ColorPicker;
 
 
-},{"../mixin/onchange.react":"/Volumes/Home/Projects/react-colorpicker/lib/mixin/onchange.react.jsx","../util/react":"/Volumes/Home/Projects/react-colorpicker/lib/util/react.js","./details.react":"/Volumes/Home/Projects/react-colorpicker/lib/components/details.react.jsx","./map.react":"/Volumes/Home/Projects/react-colorpicker/lib/components/map.react.jsx","./sample.react":"/Volumes/Home/Projects/react-colorpicker/lib/components/sample.react.jsx","./slider.react":"/Volumes/Home/Projects/react-colorpicker/lib/components/slider.react.jsx","classnames":"/Volumes/Home/Projects/react-colorpicker/node_modules/classnames/index.js","colr":"/Volumes/Home/Projects/react-colorpicker/node_modules/colr/index.js"}],"/Volumes/Home/Projects/react-colorpicker/lib/components/details.react.jsx":[function(require,module,exports){
+},{"../mixin/onchange.react":"/Users/brunomota/Sites/react-colorpicker/lib/mixin/onchange.react.jsx","./details.react":"/Users/brunomota/Sites/react-colorpicker/lib/components/details.react.jsx","./map.react":"/Users/brunomota/Sites/react-colorpicker/lib/components/map.react.jsx","./sample.react":"/Users/brunomota/Sites/react-colorpicker/lib/components/sample.react.jsx","./slider.react":"/Users/brunomota/Sites/react-colorpicker/lib/components/slider.react.jsx","classnames":"/Users/brunomota/Sites/react-colorpicker/node_modules/classnames/index.js","colr":"/Users/brunomota/Sites/react-colorpicker/node_modules/colr/index.js","react":false}],"/Users/brunomota/Sites/react-colorpicker/lib/components/details.react.jsx":[function(require,module,exports){
 'use strict';
 
-var React = require('../util/react');
+var React = require('react');
 var Colr = require('colr');
 
 var Input = require('./input.react');
@@ -272,10 +272,10 @@ var Details = React.createClass({displayName: "Details",
 module.exports = Details;
 
 
-},{"../mixin/onchange.react":"/Volumes/Home/Projects/react-colorpicker/lib/mixin/onchange.react.jsx","../util/react":"/Volumes/Home/Projects/react-colorpicker/lib/util/react.js","./input.react":"/Volumes/Home/Projects/react-colorpicker/lib/components/input.react.jsx","colr":"/Volumes/Home/Projects/react-colorpicker/node_modules/colr/index.js"}],"/Volumes/Home/Projects/react-colorpicker/lib/components/input.react.jsx":[function(require,module,exports){
+},{"../mixin/onchange.react":"/Users/brunomota/Sites/react-colorpicker/lib/mixin/onchange.react.jsx","./input.react":"/Users/brunomota/Sites/react-colorpicker/lib/components/input.react.jsx","colr":"/Users/brunomota/Sites/react-colorpicker/node_modules/colr/index.js","react":false}],"/Users/brunomota/Sites/react-colorpicker/lib/components/input.react.jsx":[function(require,module,exports){
 'use strict';
 
-var React = require('../util/react');
+var React = require('react');
 var Colr = require('colr');
 
 var OnChangeMixin = require('../mixin/onchange.react');
@@ -348,12 +348,12 @@ var Input = React.createClass({displayName: "Input",
 module.exports = Input;
 
 
-},{"../mixin/onchange.react":"/Volumes/Home/Projects/react-colorpicker/lib/mixin/onchange.react.jsx","../util/react":"/Volumes/Home/Projects/react-colorpicker/lib/util/react.js","colr":"/Volumes/Home/Projects/react-colorpicker/node_modules/colr/index.js"}],"/Volumes/Home/Projects/react-colorpicker/lib/components/map.react.jsx":[function(require,module,exports){
+},{"../mixin/onchange.react":"/Users/brunomota/Sites/react-colorpicker/lib/mixin/onchange.react.jsx","colr":"/Users/brunomota/Sites/react-colorpicker/node_modules/colr/index.js","react":false}],"/Users/brunomota/Sites/react-colorpicker/lib/components/map.react.jsx":[function(require,module,exports){
 'use strict';
 
-var React = require('../util/react');
+var React = require('react');
 var Colr = require('colr');
-var PureRenderMixin = require('react/lib/ReactComponentWithPureRenderMixin');
+var PureRenderMixin = require('react-addons-pure-render-mixin');
 var classnames = require('classnames');
 
 var clamp = require('../util/clamp');
@@ -417,12 +417,12 @@ var Map = React.createClass({displayName: "Map",
 module.exports = Map;
 
 
-},{"../mixin/draggable.react":"/Volumes/Home/Projects/react-colorpicker/lib/mixin/draggable.react.jsx","../mixin/onchange.react":"/Volumes/Home/Projects/react-colorpicker/lib/mixin/onchange.react.jsx","../util/clamp":"/Volumes/Home/Projects/react-colorpicker/lib/util/clamp.js","../util/react":"/Volumes/Home/Projects/react-colorpicker/lib/util/react.js","classnames":"/Volumes/Home/Projects/react-colorpicker/node_modules/classnames/index.js","colr":"/Volumes/Home/Projects/react-colorpicker/node_modules/colr/index.js","react/lib/ReactComponentWithPureRenderMixin":"/Volumes/Home/Projects/react-colorpicker/node_modules/react/lib/ReactComponentWithPureRenderMixin.js"}],"/Volumes/Home/Projects/react-colorpicker/lib/components/sample.react.jsx":[function(require,module,exports){
+},{"../mixin/draggable.react":"/Users/brunomota/Sites/react-colorpicker/lib/mixin/draggable.react.jsx","../mixin/onchange.react":"/Users/brunomota/Sites/react-colorpicker/lib/mixin/onchange.react.jsx","../util/clamp":"/Users/brunomota/Sites/react-colorpicker/lib/util/clamp.js","classnames":"/Users/brunomota/Sites/react-colorpicker/node_modules/classnames/index.js","colr":"/Users/brunomota/Sites/react-colorpicker/node_modules/colr/index.js","react":false,"react-addons-pure-render-mixin":"/Users/brunomota/Sites/react-colorpicker/node_modules/react-addons-pure-render-mixin/index.js"}],"/Users/brunomota/Sites/react-colorpicker/lib/components/sample.react.jsx":[function(require,module,exports){
 'use strict';
 
-var React = require('../util/react');
+var React = require('react');
 var Colr = require('colr');
-var PureRenderMixin = require('react/lib/ReactComponentWithPureRenderMixin');
+var PureRenderMixin = require('react-addons-pure-render-mixin');
 
 var OnChangeMixin = require('../mixin/onchange.react');
 
@@ -465,11 +465,11 @@ var Sample = React.createClass({displayName: "Sample",
 module.exports = Sample;
 
 
-},{"../mixin/onchange.react":"/Volumes/Home/Projects/react-colorpicker/lib/mixin/onchange.react.jsx","../util/react":"/Volumes/Home/Projects/react-colorpicker/lib/util/react.js","colr":"/Volumes/Home/Projects/react-colorpicker/node_modules/colr/index.js","react/lib/ReactComponentWithPureRenderMixin":"/Volumes/Home/Projects/react-colorpicker/node_modules/react/lib/ReactComponentWithPureRenderMixin.js"}],"/Volumes/Home/Projects/react-colorpicker/lib/components/slider.react.jsx":[function(require,module,exports){
+},{"../mixin/onchange.react":"/Users/brunomota/Sites/react-colorpicker/lib/mixin/onchange.react.jsx","colr":"/Users/brunomota/Sites/react-colorpicker/node_modules/colr/index.js","react":false,"react-addons-pure-render-mixin":"/Users/brunomota/Sites/react-colorpicker/node_modules/react-addons-pure-render-mixin/index.js"}],"/Users/brunomota/Sites/react-colorpicker/lib/components/slider.react.jsx":[function(require,module,exports){
 'use strict';
 
-var React = require('../util/react');
-var PureRenderMixin = require('react/lib/ReactComponentWithPureRenderMixin');
+var React = require('react');
+var PureRenderMixin = require('react-addons-pure-render-mixin');
 var classnames = require('classnames');
 
 var clamp = require('../util/clamp');
@@ -534,10 +534,10 @@ var Slider = React.createClass({displayName: "Slider",
 module.exports = Slider;
 
 
-},{"../mixin/draggable.react":"/Volumes/Home/Projects/react-colorpicker/lib/mixin/draggable.react.jsx","../mixin/onchange.react":"/Volumes/Home/Projects/react-colorpicker/lib/mixin/onchange.react.jsx","../util/clamp":"/Volumes/Home/Projects/react-colorpicker/lib/util/clamp.js","../util/react":"/Volumes/Home/Projects/react-colorpicker/lib/util/react.js","classnames":"/Volumes/Home/Projects/react-colorpicker/node_modules/classnames/index.js","react/lib/ReactComponentWithPureRenderMixin":"/Volumes/Home/Projects/react-colorpicker/node_modules/react/lib/ReactComponentWithPureRenderMixin.js"}],"/Volumes/Home/Projects/react-colorpicker/lib/mixin/draggable.react.jsx":[function(require,module,exports){
+},{"../mixin/draggable.react":"/Users/brunomota/Sites/react-colorpicker/lib/mixin/draggable.react.jsx","../mixin/onchange.react":"/Users/brunomota/Sites/react-colorpicker/lib/mixin/onchange.react.jsx","../util/clamp":"/Users/brunomota/Sites/react-colorpicker/lib/util/clamp.js","classnames":"/Users/brunomota/Sites/react-colorpicker/node_modules/classnames/index.js","react":false,"react-addons-pure-render-mixin":"/Users/brunomota/Sites/react-colorpicker/node_modules/react-addons-pure-render-mixin/index.js"}],"/Users/brunomota/Sites/react-colorpicker/lib/mixin/draggable.react.jsx":[function(require,module,exports){
 'use strict';
 
-var React = require('../util/react');
+var React = require('react');
 
 var clamp = require('../util/clamp');
 
@@ -617,10 +617,10 @@ var DraggableMixin = {
 module.exports = DraggableMixin;
 
 
-},{"../util/clamp":"/Volumes/Home/Projects/react-colorpicker/lib/util/clamp.js","../util/react":"/Volumes/Home/Projects/react-colorpicker/lib/util/react.js"}],"/Volumes/Home/Projects/react-colorpicker/lib/mixin/onchange.react.jsx":[function(require,module,exports){
+},{"../util/clamp":"/Users/brunomota/Sites/react-colorpicker/lib/util/clamp.js","react":false}],"/Users/brunomota/Sites/react-colorpicker/lib/mixin/onchange.react.jsx":[function(require,module,exports){
 'use strict';
 
-var React = require('../util/react');
+var React = require('react');
 
 var noop = function () {};
 
@@ -640,7 +640,7 @@ var OnChangeMixin = {
 module.exports = OnChangeMixin;
 
 
-},{"../util/react":"/Volumes/Home/Projects/react-colorpicker/lib/util/react.js"}],"/Volumes/Home/Projects/react-colorpicker/lib/util/clamp.js":[function(require,module,exports){
+},{"react":false}],"/Users/brunomota/Sites/react-colorpicker/lib/util/clamp.js":[function(require,module,exports){
 function clamp (val, min, max) {
   return val < min ? min : (val > max ? max : val);
 }
@@ -648,20 +648,11 @@ function clamp (val, min, max) {
 module.exports = clamp;
 
 
-},{}],"/Volumes/Home/Projects/react-colorpicker/lib/util/react.js":[function(require,module,exports){
-if ((typeof window !== 'undefined') && (typeof window.React !== 'undefined')) {
-  module.exports = window.React;
-} else {
-  module.exports = require('react');
-}
-
-
-},{"react":false}],"/Volumes/Home/Projects/react-colorpicker/node_modules/classnames/index.js":[function(require,module,exports){
-/*
+},{}],"/Users/brunomota/Sites/react-colorpicker/node_modules/classnames/index.js":[function(require,module,exports){
+/*!
   Copyright (c) 2015 Jed Watson.
-  
   Licensed under the MIT License (MIT), see
-  https://github.com/JedWatson/classnames/blob/master/LICENSE
+  http://jedwatson.github.io/classnames
 */
 
 function classNames() {
@@ -702,7 +693,7 @@ if (typeof define !== 'undefined' && define.amd) {
 	});
 }
 
-},{}],"/Volumes/Home/Projects/react-colorpicker/node_modules/colr/index.js":[function(require,module,exports){
+},{}],"/Users/brunomota/Sites/react-colorpicker/node_modules/colr/index.js":[function(require,module,exports){
 'use strict';
 
 
@@ -1068,7 +1059,7 @@ function clampHsx (h, s, x) {
 
 module.exports = Colr;
 
-},{"colr-convert":"/Volumes/Home/Projects/react-colorpicker/node_modules/colr/node_modules/colr-convert/index.js"}],"/Volumes/Home/Projects/react-colorpicker/node_modules/colr/node_modules/colr-convert/index.js":[function(require,module,exports){
+},{"colr-convert":"/Users/brunomota/Sites/react-colorpicker/node_modules/colr/node_modules/colr-convert/index.js"}],"/Users/brunomota/Sites/react-colorpicker/node_modules/colr/node_modules/colr-convert/index.js":[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -1196,7 +1187,7 @@ function rgb2hsv(rgb) {
   if (max === 0) {
     s = 0;
   } else {
-    s = (delta / max * 1000) / 10;
+    s = delta / max * 100;
   }
 
   if (max === min) {
@@ -1215,7 +1206,7 @@ function rgb2hsv(rgb) {
     h += 360;
   }
 
-  v = ((max / 255) * 1000) / 10;
+  v = (max / 255) * 100;
 
   return [h, s, v];
 }
@@ -1345,7 +1336,9 @@ function rgb2grayscale (rgb) {
   return (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
 }
 
-},{}],"/Volumes/Home/Projects/react-colorpicker/node_modules/react/lib/ReactComponentWithPureRenderMixin.js":[function(require,module,exports){
+},{}],"/Users/brunomota/Sites/react-colorpicker/node_modules/react-addons-pure-render-mixin/index.js":[function(require,module,exports){
+module.exports = require('react/lib/ReactComponentWithPureRenderMixin');
+},{"react/lib/ReactComponentWithPureRenderMixin":"/Users/brunomota/Sites/react-colorpicker/node_modules/react/lib/ReactComponentWithPureRenderMixin.js"}],"/Users/brunomota/Sites/react-colorpicker/node_modules/react/lib/ReactComponentWithPureRenderMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1354,12 +1347,12 @@ function rgb2grayscale (rgb) {
  * LICENSE file in the root directory of this source tree. An additional grant
  * of patent rights can be found in the PATENTS file in the same directory.
  *
-* @providesModule ReactComponentWithPureRenderMixin
-*/
+ * @providesModule ReactComponentWithPureRenderMixin
+ */
 
 'use strict';
 
-var shallowEqual = require("./shallowEqual");
+var shallowCompare = require('./shallowCompare');
 
 /**
  * If your React component's render function is "pure", e.g. it will render the
@@ -1386,15 +1379,38 @@ var shallowEqual = require("./shallowEqual");
  * use `forceUpdate()` when you know deep data structures have changed.
  */
 var ReactComponentWithPureRenderMixin = {
-  shouldComponentUpdate: function(nextProps, nextState) {
-    return !shallowEqual(this.props, nextProps) ||
-           !shallowEqual(this.state, nextState);
+  shouldComponentUpdate: function (nextProps, nextState) {
+    return shallowCompare(this, nextProps, nextState);
   }
 };
 
 module.exports = ReactComponentWithPureRenderMixin;
+},{"./shallowCompare":"/Users/brunomota/Sites/react-colorpicker/node_modules/react/lib/shallowCompare.js"}],"/Users/brunomota/Sites/react-colorpicker/node_modules/react/lib/shallowCompare.js":[function(require,module,exports){
+/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+* @providesModule shallowCompare
+*/
 
-},{"./shallowEqual":"/Volumes/Home/Projects/react-colorpicker/node_modules/react/lib/shallowEqual.js"}],"/Volumes/Home/Projects/react-colorpicker/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
+'use strict';
+
+var shallowEqual = require('fbjs/lib/shallowEqual');
+
+/**
+ * Does a shallow comparison for props and state.
+ * See ReactComponentWithPureRenderMixin
+ */
+function shallowCompare(instance, nextProps, nextState) {
+  return !shallowEqual(instance.props, nextProps) || !shallowEqual(instance.state, nextState);
+}
+
+module.exports = shallowCompare;
+},{"fbjs/lib/shallowEqual":"/Users/brunomota/Sites/react-colorpicker/node_modules/react/node_modules/fbjs/lib/shallowEqual.js"}],"/Users/brunomota/Sites/react-colorpicker/node_modules/react/node_modules/fbjs/lib/shallowEqual.js":[function(require,module,exports){
 /**
  * Copyright 2013-2015, Facebook, Inc.
  * All rights reserved.
@@ -1404,39 +1420,46 @@ module.exports = ReactComponentWithPureRenderMixin;
  * of patent rights can be found in the PATENTS file in the same directory.
  *
  * @providesModule shallowEqual
+ * @typechecks
+ * 
  */
 
 'use strict';
 
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+
 /**
- * Performs equality by iterating through keys on an object and returning
- * false when any key has values which are not strictly equal between
- * objA and objB. Returns true when the values of all keys are strictly equal.
- *
- * @return {boolean}
+ * Performs equality by iterating through keys on an object and returning false
+ * when any key has values which are not strictly equal between the arguments.
+ * Returns true when the values of all keys are strictly equal.
  */
 function shallowEqual(objA, objB) {
   if (objA === objB) {
     return true;
   }
-  var key;
+
+  if (typeof objA !== 'object' || objA === null || typeof objB !== 'object' || objB === null) {
+    return false;
+  }
+
+  var keysA = Object.keys(objA);
+  var keysB = Object.keys(objB);
+
+  if (keysA.length !== keysB.length) {
+    return false;
+  }
+
   // Test for A's keys different from B.
-  for (key in objA) {
-    if (objA.hasOwnProperty(key) &&
-        (!objB.hasOwnProperty(key) || objA[key] !== objB[key])) {
+  var bHasOwnProperty = hasOwnProperty.bind(objB);
+  for (var i = 0; i < keysA.length; i++) {
+    if (!bHasOwnProperty(keysA[i]) || objA[keysA[i]] !== objB[keysA[i]]) {
       return false;
     }
   }
-  // Test for B's keys missing from A.
-  for (key in objB) {
-    if (objB.hasOwnProperty(key) && !objA.hasOwnProperty(key)) {
-      return false;
-    }
-  }
+
   return true;
 }
 
 module.exports = shallowEqual;
-
 },{}]},{},["./lib/index.js"])("./lib/index.js")
 });
